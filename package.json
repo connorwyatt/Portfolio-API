@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-api",
+  "version": "0.0.0",
+  "scripts": {
+    "format": "clang-format --glob=\"src/**/*.ts\" -i --style=file"
+  },
+  "devDependencies": {
+    "clang-format": "^1.0.45"
+  }
+}
