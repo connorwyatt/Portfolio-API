@@ -2,9 +2,15 @@
   "name": "portfolio-api",
   "version": "0.0.0",
   "scripts": {
+    "build": "tsc --outDir ./dist/",
     "format": "clang-format --glob=\"src/**/*.ts\" -i --style=file"
   },
   "devDependencies": {
-    "clang-format": "^1.0.45"
+    "clang-format": "^1.0.45",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "fluency-injection": "^1.1.1",
+    "reflect-metadata": "^0.1.8"
   }
 }
