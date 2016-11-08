@@ -9,6 +9,9 @@
     "format": "clang-format --glob=\"src/**/*.ts\" -i --style=file",
     "serve:dist": "node dist/main.js"
   },
+  "engines": {
+    "node": "6.6.0"
+  },
   "devDependencies": {
     "clang-format": "^1.0.45",
     "typescript": "latest"
